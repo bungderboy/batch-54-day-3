@@ -1,0 +1,28 @@
+// // let nama = 'bungDerboy'
+// // let asal = 'jakarta'
+// // let umur = 25
+// // let hobi = "fotografi"
+// // let statusPernikahan = 'sudah'
+
+// // umur = 25
+
+// // if  (statusPernikahan == 'belum'){
+// //     statusPernikahan = 'belum menikah'
+// // }   else{
+// //     statusPernikahan = 'sudah menikah'
+// // }
+
+// // alert (` nama saya ${nama} asal saya ${asal} umur saya ${umur}  hobi saya ${hobi} dan Status pernikahan ${statusPernikahan} SALAM KENAL SEMUANYA`)
+
+// // let namaMurid = ['Andi', 'Denis', 'Rizal']
+// // namaMurid.push ('Dini', 'Lele')
+
+// // alert (namaMurid[2])
+
+// function suka(){
+//     alert('terima kasih sudah like');
+// }
+
+// function berbagi(){
+//     alert('terima kasih sudah share')
+// }

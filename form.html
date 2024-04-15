@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Personal Web</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body style="font-family: helvetica;">
+        <nav>
+            <div class="nav-left">
+                <ul>
+                    <img src="./assets/image/logodumbways.png" alt="logodumbways"/>
+                    <li class="active">
+                        <a href="./profile card.html">Home</a>
+                    </li>
+                    <li>My Project</li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="nav-right"><a href="./form.html">Contact Me</a></button>
+            </div>
+        </nav>
+
+        <form>
+            <h1 style=>GET IN TOUCH</h1>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Insert Your Name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Insert Your Email">
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="Insert Your Phone Number">
+            </div>
+            <div>
+                <label for="subject">Subject</label>
+                <select name="subject" id="subject">
+                    <option>Select</option>
+                    <option value="Frontend">Frontend Developer</option>
+                    <option value="Backend">Backend Developer</option>
+                    <option value="Fullstack">Fullstack Developer</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Your Message"></textarea>
+            </div>
+            <div>
+                <button type="button" onclick="submitHandler()">Submit</button>
+            </div>
+
+        </form>
+
+        <script src="./assets/Js/form.js"></script>
+    </body>
+</html>
